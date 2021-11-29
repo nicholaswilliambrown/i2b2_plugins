@@ -1,0 +1,10 @@
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.server-common/dist
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.server-common/genlib
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.server-common/gensrc
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.server-common/classes
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/dist
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/genlib
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/gensrc
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/classes
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/build.bat
+/RunSQL_CRC_Server_Side_Plugin/edu.harvard.i2b2.crcplugin.runSql/apache-ant-1.10.1
