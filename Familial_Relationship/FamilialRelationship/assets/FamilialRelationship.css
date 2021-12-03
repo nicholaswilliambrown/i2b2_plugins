@@ -1,0 +1,163 @@
+/*** CSS for main plugin wrapper ***/
+
+DIV#HelloHSD-mainDiv {
+	padding: 0px;
+}
+
+
+
+/*** CSS for tab background ***/
+
+DIV#HelloHSD-TABS DIV.yui-content {
+	background: #FFF;
+}
+DIV#HelloHSD-TABS DIV.HelloHSD-MainContent {
+	background:#FFF;
+	border:solid #63758C;
+	border-width:1px 0;
+	overflow:auto;
+}
+DIV#HelloHSD-TABS DIV.HelloHSD-MainContentPad {
+	padding:10px 10px;
+}
+
+
+
+/*** CSS for the Specify Data tab ***/
+
+DIV#HelloHSD-mainDiv DIV.droptrgtlbl {
+	padding: 6px 0px;
+	width:140px;
+	text-align:left;
+	float: left;
+	font-weight:bold;
+	color:#666;
+	margin: 15px 10px 0px 0px;
+}
+
+DIV#HelloHSD-mainDiv DIV.droptrgt {
+	padding: 5px 10px;
+	background: #DEEBEF;
+	margin-top: 35px;
+	text-align:left;
+	border: 1px solid #63758C;
+	width:300px;
+	overflow:hidden;	
+}
+
+/*
+DIV#HelloHSD-mainDiv DIV.selector {
+	clear:both;
+	width: 500px;
+}*/
+
+DIV#HelloHSD-mainDiv DIV.selector DIV {
+	float: right;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+
+DIV#HelloHSD-mainDiv DIV.selector SELECT {
+	/*float: right;*/
+	margin-top: 15px;
+	width: 300px;
+}
+
+DIV#HelloHSD-mainDiv DIV.selector INPUT.addComm {
+	/*float: right;*/
+	margin-left:4px;
+	position:relative;
+	top:-2px;
+	width:46px;
+}
+
+
+/*** CSS for the View Results tab ***/
+
+DIV#HelloHSD-TABS DIV.results-directions {
+	padding: 10px;
+	text-align:left;
+}
+DIV#HelloHSD-TABS DIV.results-working {
+	margin:10px;
+	text-align:left;
+}
+DIV#HelloHSD-TABS DIV.results-finished .intro {
+	margin:10px 10px 15px 10px;
+}
+DIV#HelloHSD-TABS DIV.results-finished .resultLV {
+	margin:10px 0px 15px 10px;
+}
+DIV#HelloHSD-TABS DIV.results-finished .resultLbl {
+	margin-right:10px;
+	font-weight:bold;
+	font-size:13px;
+	color:#42558C;
+	float:left;
+}
+DIV#HelloHSD-TABS DIV.results-finished .resultVal {
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables .demcatTitle {
+	margin:0px 10px;
+	font-weight:bold;
+	font-size:13px;
+	color:#42558C;
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables TABLE {
+	margin:1px 10px 15px 10px;
+	border-collapse:collapse;
+	border:solid 1px #63758C;
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables TABLE TH {
+	border:solid 1px #63758C;
+	background-color:#CEDBEF;
+	padding:5px;
+	text-align:center;
+	width:100px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables TABLE TD {
+	border:solid 1px #63758C;
+	background-color:#DEEBEF;
+	padding:5px;
+	text-align:center;
+	width:50px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables .barTD {
+	border:none;
+	background-color:#FFE;
+	padding:0px;
+	width:200px;
+	text-align:left;
+}
+DIV#HelloHSD-TABS DIV.results-finished .demTables .bar {
+	border:none;
+	background-color:#FCC;
+	height:22px;
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+
+
+/*** CSS for the Plugin Help tab ***/
+
+DIV#HelloHSD-TABS H1 {
+	margin:0 0 10px 0;
+	font-size:16px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#HelloHSD-TABS H2 {
+	margin:10px 0 10px 0;
+	font-size:13px;
+	color:#42558C;
+	font-weight:bold;
+}
+DIV#HelloHSD-TABS HR {
+	margin:0;
+}

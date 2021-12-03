@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<body>
+
+		<div id='HelloHSD-mainDiv'>
+
+			<div id="HelloHSD-TABS" class="yui-navset">
+<!--				<ul class="yui-nav">
+					<li id="HelloHSD-TAB0" class="selected"><a href="#HelloHSD-TAB0"><em>Specify Data</em></a></li>
+				</ul>
+-->				<div class="yui-content" id="HelloHSD-CONTENT">
+					<div id="HelloHSD-Main">
+						<div class="HelloHSD-MainContent">
+							<div class="HelloHSD-MainContentPad">
+							
+							
+								<div>
+									<b>Overview:</b><br/>
+									This plugin will create a new patient set based on the two sets and selected relationship type. The new patient set will contain the subset of patient set 1 who have the selected relationship to a member of set 2.<br/><br/>
+									<b>Instructions:</b>
+									<ul>
+										<li>Drop a Patient set into the Patient Set 1 input box. This box should countain the source of the relationhip, i.e. the mothers in a MotherOf query.</li>
+										<li>Drop a Patient set into the Patient Set 2 input box. This box should countain the target of the relationhip, i.e. the children in a MotherOf query.</li>
+										<li>Select the relationship type from the dropdown.</li>
+										<li>Enter a name for the query into the Query Name box. This will be the query name for this patient set in your previous queries window</li>
+										<li>Click the "View Results" tab to generate the results.</li>
+										<li>Wait for the View Results tab to populate. This will tell you the number of patients in the resulting set.</li>
+										<li>Refresh your Previous Queries window to view patient set, or use it in further queries.</li>
+									</ul>
+								</div>
+								<hr size="1" noshade>
+								
+								<div class="droptrgtlbl">Patient Set 1:</div>
+								<div class="droptrgt SDX-PRS" id="HelloHSD-PRSDROP">Drop a small Patient Set here</DIV>
+								<p/>
+								<div class="droptrgtlbl">Relationship Type:</div>
+								<div class="selector">
+									<select id="RelationshipSetCreator-relationshipList" onchange="i2b2.FamilialRelationship.selectChange()"></select>
+								</div>
+								<p/>
+								<div class="droptrgtlbl">Patient Set 2:</div>
+								<div class="droptrgt SDX-PRS" id="HelloHSD-PRSDROP2">Drop a small Patient Set here</DIV>
+								<p/>
+								<p/>
+								<div>
+								<div class="droptrgtlbl">Save As:</div>
+								<div id="HelloHSD-searchTerms">
+								<textarea style="margin-right:4px;position:relative; top: 15px; width:350px; height:30px" id="HelloHSD-queryName"></textarea></div>
+								<p/>	
+								<input type="button" style="float:center; margin-right:4px;position:relative; top: 50px; width:180px; height:30px" value="Generate New Patient Set" onclick="i2b2.FamilialRelationship.getResults()" />
+								<p/>
+								</div>
+								<div style="margin-top:50px;">
+									<div class="results-directions" style="display:none;">Please return to the "Specify Data" tab and select a Patient Set.</div>
+									<div class="results-working" style="display:none;"><br><hr size="1" noshade><br>Please wait while the data is being retrieved...</div>
+									<div class="results-finished" style="display:none;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</body>
+</html>
